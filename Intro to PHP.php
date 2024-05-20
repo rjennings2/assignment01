@@ -10,11 +10,11 @@
 
 $config = [
 
-    'gallery_name' => 'Name of Your Gallery',
+    'gallery_name' => 'Rylees Gallery',
  
-    'unsplash_categories' => ['array','of','category','keywords'],
+    'unsplash_categories' => ['dog','cat','sunset','flower', 'statue', 'space'],
  
-    'local_images' => ['array','of','local','image','filenames']
+    'local_images' => ['beach.jpg','strawberry.jpg','newyork.jpg','cloud.jpg']
  
 ];
 
@@ -33,5 +33,25 @@ $config = [
 <body>
     <!-- Remember that alternative syntax is good and html inside php is bad -->
     
+    <h1 id = gallery_header>
+    <?php
+        echo $config['gallery_name'];
+    ?>
+    </h1>
+
+    <div 
+        <div id = small>
+        <?php
+            for($i = 0; $i < 6; $i++){
+                echo "<img src=" . "https://source.unsplash.com/300x200/?".$config['unsplash_categories'][$i] . "alt =". $config['unsplash_categories'][$i]."image>"."  ";
+            }
+        ?>
+        </div>
+
+        <div id = large>
+            <?php
+                for($i = 0; $i < 4; $i++){
+                    echo "img src=" . ;
+                }
 </body>
 </html>
