@@ -16,22 +16,22 @@ $config = [
  
     'local_images' => [
         [
-            'filename' => 'beach.jpg',
+            'filename' => 'images/beach.jpg',
             'photographer' => 'Maarten van den Heuvel',
             'unsplash_url' => 'https://unsplash.com/@mvdheuvel'
         ],
         [
-            'filename' => 'strawberry.jpg',
+            'filename' => 'images/strawberry.jpg',
             'photographer' => 'Justus Menke',
             'unsplash_url' => 'https://unsplash.com/@justusmenke'
         ],
         [
-            'filename' => 'newyork.jpg',
+            'filename' => 'images/newyork.jpg',
             'photographer' => 'Jon Flobrant',
             'unsplash_url' => 'https://unsplash.com/@jonflobrant'
         ],
         [
-            'filename' => 'cloud.jpg',
+            'filename' => 'images/cloud.jpg',
             'photographer' => 'Taylor Van Riper',
             'unsplash_url' => 'https://unsplash.com/@taylorvanriper925'
         ]
