@@ -10,6 +10,7 @@
 
 $config = [
 
+
     'gallery_name' => 'My First Gallery',
  
     'unsplash_categories' => ['Dog','Cat','Sunset','Flower', 'Statue', 'Space','Cookie','Lego'],
@@ -51,7 +52,7 @@ $config = [
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
-    <title>Assignment 1</title>
+    <title id="gallery_header"><?php echo $config['gallery_name']; ?></title>
 </head>
 <body>
     <!-- Remember that alternative syntax is good and html inside php is bad -->
